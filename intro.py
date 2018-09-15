@@ -12,6 +12,10 @@ class NeuralNetwork():
         # and mean 0.
         self.synaptic_weights = 2 * random.random((3, 1)) - 1
 
+        # If you comment out the above line, and uncomment this one, you can add
+        # your own values manually
+        # self.synaptic_weights = [[1],[2],[3]]
+
     # The Sigmoid function, which describes an S shaped curve.
     # We pass the weighted sum of the inputs through this function to
     # normalise them between 0 and 1.
